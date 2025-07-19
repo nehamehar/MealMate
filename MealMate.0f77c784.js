@@ -24743,7 +24743,7 @@ parcelHelpers.export(exports, "Menu_URL", ()=>Menu_URL);
 parcelHelpers.export(exports, "Body_URL", ()=>Body_URL);
 const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 const LOGO = "https://img.freepik.com/free-vector/burger-hand-logo-design-template_474888-3991.jpg";
-const Menu_URL = "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.6139&lng=77.2090&restaurantId=";
+const Menu_URL = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.6139&lng=77.2090&restaurantId=";
 const Body_URL = "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6139&lng=77.2090&page_type=DESKTOP_WEB_LISTING";
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"8LxkN":[function(require,module,exports,__globalThis) {
