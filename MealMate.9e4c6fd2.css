@@ -311,6 +311,10 @@ img, video {
   margin-bottom: 2.5rem;
 }
 
+.mb-2 {
+  margin-bottom: .5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -379,6 +383,10 @@ img, video {
   width: 58.3333%;
 }
 
+.w-\[150px\] {
+  width: 150px;
+}
+
 .w-\[320px\] {
   width: 320px;
 }
@@ -425,6 +433,10 @@ img, video {
 
 .text-pretty {
   text-wrap: pretty;
+}
+
+.rounded-\[10\%\] {
+  border-radius: 10%;
 }
 
 .rounded-full {

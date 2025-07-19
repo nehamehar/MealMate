@@ -751,54 +751,46 @@ const User = ()=>{
     }, undefined);
     const { name, location, avatar_url } = userInfo;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "",
-        style: {
-            border: "1px solid black",
-            padding: "7px",
-            textAlign: "center"
-        },
+        className: "p-2 text-center border border-black",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 src: avatar_url,
                 alt: "User Avatar",
-                style: {
-                    width: "150px",
-                    borderRadius: "10%"
-                }
+                className: "w-[150px] rounded-[10%] mx-auto mb-2"
             }, void 0, false, {
                 fileName: "src/components/user.js",
                 lineNumber: 21,
-                columnNumber: 13
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: name
             }, void 0, false, {
                 fileName: "src/components/user.js",
-                lineNumber: 22,
-                columnNumber: 13
+                lineNumber: 26,
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: [
-                    "Location:  ",
+                    "Location: ",
                     location
                 ]
             }, void 0, true, {
                 fileName: "src/components/user.js",
-                lineNumber: 23,
-                columnNumber: 13
+                lineNumber: 27,
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Contact: nehamehar31@gmail.com"
             }, void 0, false, {
                 fileName: "src/components/user.js",
-                lineNumber: 24,
-                columnNumber: 13
+                lineNumber: 28,
+                columnNumber: 3
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/user.js",
         lineNumber: 20,
-        columnNumber: 9
+        columnNumber: 8
     }, undefined);
 };
 _s(User, "vOwY8+j2gC2fzH0Q0HS3gN3jsRk=");
