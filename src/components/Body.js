@@ -3,7 +3,7 @@ import Item from "./Item";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { Body_URL } from "../utils/constants";
-import useOnlineStatus from "../utils/useONlineSTatus";
+import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
 import { useContext } from "react";
 
