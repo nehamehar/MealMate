@@ -61,7 +61,8 @@ exports.handler = async function(event, context) {
         // And return an error response to your frontend
         return {
             statusCode: 500, // 500 indicates a server error
-            body: JSON.stringify({ error: `Failed to fetch restaurant data: ${error.message}` })
+            body: JSON.stringify({ error: `Failed to fetch restaurant data: ${error.message}`})
+            
         };
     }
 };
